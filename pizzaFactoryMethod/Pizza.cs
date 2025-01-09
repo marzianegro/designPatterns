@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern;
+namespace factoryMethod;
 
 // this is the *product* of the factory: pizza!
 

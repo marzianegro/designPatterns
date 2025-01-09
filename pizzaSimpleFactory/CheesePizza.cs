@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern;
+namespace simpleFactory;
 
 // there are our *concrete products*.
 // each product needs to implement the Pizza interface (which in this case means

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern;
+namespace factoryMethod;
 
 // if a franchise wants NY-style pizzas for its customers, it uses
 // the NY subclass, which has its own CreatePizza() method, creating

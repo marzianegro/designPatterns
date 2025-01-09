@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern;
+namespace factoryMethod;
 
 // similarly, by using the Chicago subclass, we get an implementation
 // of CreatePizza() with Chicago ingredients

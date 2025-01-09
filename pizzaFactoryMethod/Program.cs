@@ -1,4 +1,4 @@
-﻿namespace FactoryPattern;
+﻿namespace factoryMethod;
 
 public class PizzaTestDrive {
     static void Main(string[] args) {

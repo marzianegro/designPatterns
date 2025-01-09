@@ -1,6 +1,6 @@
 ﻿using FactoryPattern;
 
-namespace pizzaSimpleFactory;
+namespace simpleFactory;
 
 public class PizzaTestDrive {
     static void Main() {
