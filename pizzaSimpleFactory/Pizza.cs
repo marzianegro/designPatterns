@@ -6,12 +6,7 @@ namespace simpleFactory;
 
 // we've defined Pizza as an abstract class with some helpful
 // implementations that can be overridden
-
-// we'll start with an abstract Pizza class, and all the
-// concrete pizzas will derive from this
 public abstract class Pizza {
-    // each Pizza has a name, a type of dough, a type of sauce,
-    // and a set of toppings
     protected string name;
     protected string dough;
     protected string sauce;

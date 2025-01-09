@@ -10,7 +10,7 @@ public class ChicagoStyleClamPizza : Pizza {
         toppings.Add("Frozen Clams from Chesapeake Bay");
     }
 
-    public void Cut() {
+    public override void Cut() {
         Console.WriteLine("Cutting the pizza into square slices");
     }
 }

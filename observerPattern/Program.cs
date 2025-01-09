@@ -18,7 +18,7 @@ public class WeatherStation {
         weatherData.RemoveObserver(forecastDisplay);
         weatherData.SetMeasurements(62, 90, 28.1f);
 
-        HeadIndexDisplay heatIndexDisplay = new(weatherData);
+        HeatIndexDisplay heatIndexDisplay = new(weatherData);
 
         weatherData.SetMeasurements(80, 65, 30.4f);
         weatherData.SetMeasurements(82, 70, 29.2f);

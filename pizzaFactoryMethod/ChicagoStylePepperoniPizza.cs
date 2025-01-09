@@ -13,7 +13,7 @@ public class ChicagoStylePepperoniPizza : Pizza {
         toppings.Add("Sliced Pepperoni");
     }
 
-    public void cut() {
+    public override void Cut() {
         Console.WriteLine("Cutting the pizza into square slices");
     }
 }

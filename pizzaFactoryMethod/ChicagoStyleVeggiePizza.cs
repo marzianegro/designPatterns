@@ -12,7 +12,7 @@ public class ChicagoStyleVeggiePizza : Pizza {
         toppings.Add("Eggplant");
     }
 
-    public void cut() {
+    public override void Cut() {
         Console.WriteLine("Cutting the pizza into square slices");
     }
 }

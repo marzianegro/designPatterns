@@ -13,7 +13,7 @@ public class ChicagoStyleCheesePizza : Pizza {
 
     // the Chicago-style pizza also overrides the Cut() method so
     // that the pieces are cut into squares
-    public void Cut() {
+    public override void Cut() {
         Console.WriteLine("Cuttin the pizza into square slices");
     }
 }

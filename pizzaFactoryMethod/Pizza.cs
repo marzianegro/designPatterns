@@ -25,26 +25,27 @@ public abstract class Pizza {
 
     // preparation follows a number of steps in a particular sequence
     public void Prepare() {
-        Console.WriteLine("Preparing " + name);
+        Console.WriteLine("Preparing " + name +'\n');
         Console.WriteLine("Tossing dough...");
         Console.WriteLine("Adding sauce...");
         Console.WriteLine("Adding toppings: ");
         foreach (string topping in toppings) {
-            Console.Write("   " + topping);
+            Console.WriteLine("- " + topping);
         }
+        Console.WriteLine();
     }
 
     // the abstract class provides some basic defaults for baking, cutting, and boxing
     public void Bake() {
-        Console.Write("Bake for 25 minutes at 350");
+        Console.WriteLine("Baking for 25 minutes at 350");
     }
 
-    public void Cut() {
-        Console.Write("Cutting the pizza into diagonal slices");
+    public virtual void Cut() {
+        Console.WriteLine("Cutting the pizza into diagonal slices");
     }
 
     public void Box() {
-        Console.Write("Place pizza in official PizzaStore box");
+        Console.WriteLine("Placing pizza in official PizzaStore box\n");
     }
 
     public override string ToString() {

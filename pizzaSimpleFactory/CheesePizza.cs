@@ -1,9 +1,10 @@
 ﻿namespace simpleFactory;
 
-// there are our *concrete products*.
-// each product needs to implement the Pizza interface (which in this case means
-// "extend the abstract Pizza class") and be concrete. as long as that's the case,
-// it can be created by the factory and handed back to the client
+// these are our *concrete products*.
+// each product needs to implement the Pizza interface (which in this
+// case means "extend the abstract Pizza class") and be concrete.
+// as long as that's the case, it can be created by the factory
+// and handed back to the client
 public class CheesePizza : Pizza {
     public CheesePizza() {
         name = "Cheese Pizza";

@@ -15,15 +15,14 @@ public abstract class PizzaStore {
 
     // the subclasses of PizzaStore handle object instantiation for us in the CreatePizza() method
     public Pizza OrderPizza(string type) {
-        Pizza pizza;
-
         // now CreatePizza is back to being a call to a method in the PizzaStore
         // rather than on a factory object
         
         // OrderPizza() calls CreatePizza() to actually get a pizza object. but
         // which kind of pizza will it get? the OrderPizza() method can't decide;
         // it doesn't know how. so who *does* decide?
-        pizza = CreatePizza(type);
+        Pizza pizza = CreatePizza(type);
+        Console.WriteLine("--- Making a " + pizza.GetName() + " ---");
 
         // all this looks just the same...
         pizza.Prepare();
