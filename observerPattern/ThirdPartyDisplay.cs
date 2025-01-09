@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace observerPattern;
+﻿namespace observerPattern;
 
 // developers can implement the Observer and DisplayElement interfaces to create their own display element
 public class ThirdPartyDisplay : IObserver, IDisplayElement {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace observerPattern;
+﻿namespace observerPattern;
 
 // let's also create an interface for all display elements to implement.
 // the display elements just need to implement a display() method

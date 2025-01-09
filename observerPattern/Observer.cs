@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace observerPattern;
+﻿namespace observerPattern;
 
 // all our weather components implement the Observer interface.
 // this gives the Subject a common interface to talk to when it comes time to update the observers

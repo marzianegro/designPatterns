@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace observerPattern;
+﻿namespace observerPattern;
 
 // this display shows the weather forecast based on the barometer
 public class ForecastDisplay : IObserver, IDisplayElement {

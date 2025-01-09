@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using simpleFactory;
-
-namespace simpleFactory;
+﻿namespace simpleFactory;
 
 // this is the *factory* where we create pizzas;
 // it should be the only part of our application that

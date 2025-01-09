@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace observerPattern;
+﻿namespace observerPattern;
 
 // this one keeps track of the min/avg/max measurements and displays them
 public class StatisticsDisplay : IObserver, IDisplayElement {

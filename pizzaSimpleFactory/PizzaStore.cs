@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace simpleFactory;
+﻿namespace simpleFactory;
 
 // this is the *client* of the factory.
 // PizzaStore now goes through the SimplePizzaFactory

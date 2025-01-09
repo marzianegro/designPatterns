@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace strategyPattern;
+﻿namespace strategyPattern;
 
 public abstract class Duck {
     // declare two reference variables for the behavior interface types.

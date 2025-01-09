@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace simpleFactory;
+﻿namespace simpleFactory;
 
 // there are our *concrete products*.
 // each product needs to implement the Pizza interface (which in this case means

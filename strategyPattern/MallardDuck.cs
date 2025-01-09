@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace strategyPattern;
+﻿namespace strategyPattern;
 
 public class MallardDuck : Duck {
     // MallardDuck inherits the quackBehavior and flyBehavior instance variables from class Duck

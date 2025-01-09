@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace observerPattern;
+﻿namespace observerPattern;
 
 // this display element shows the current measurements from the WeatherData object
 // this display implements the Observer interface to it can get changes from the WeatherData object

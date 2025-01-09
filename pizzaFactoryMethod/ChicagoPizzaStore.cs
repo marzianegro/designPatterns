@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace factoryMethod;
+﻿namespace factoryMethod;
 
 // similarly, by using the Chicago subclass, we get an implementation
 // of CreatePizza() with Chicago ingredients

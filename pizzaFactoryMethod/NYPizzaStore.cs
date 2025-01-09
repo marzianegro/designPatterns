@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace factoryMethod;
+﻿namespace factoryMethod;
 
 // if a franchise wants NY-style pizzas for its customers, it uses
 // the NY subclass, which has its own CreatePizza() method, creating
